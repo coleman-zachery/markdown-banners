@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: dark;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg-page: #05080e;
+  --border: rgba(118, 144, 173, 0.2);
+  --text-primary: #ebf2fb;
+  --text-secondary: #a7b6c9;
+  --text-soft: #74849a;
+  --shadow-lg: 0 28px 70px rgba(0, 0, 0, 0.36);
+  --selection: rgba(77, 198, 178, 0.22);
+}
+
+html {
+  min-height: 100%;
+  background: var(--bg-page);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text-primary);
+  background: var(--bg-page);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: var(--selection);
+}
+
+#root {
+  min-height: 100vh;
+}

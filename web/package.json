@@ -1,0 +1,27 @@
+{
+    "name": "markdown-banner",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "packageManager": "npm@11.7.0",
+    "engines": {
+        "node": "20.19.4",
+        "npm": "11.7.0"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "react": "19.2.4",
+        "react-dom": "19.2.4"
+    },
+    "devDependencies": {
+        "@types/react": "19.2.13",
+        "@types/react-dom": "19.2.2",
+        "@vitejs/plugin-react": "6.0.0",
+        "typescript": "6.0.2",
+        "vite": "8.0.8"
+    }
+}
